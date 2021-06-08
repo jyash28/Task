@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    font-family: sans-serif;
+}
+
+#navbarNav{
+    justify-content: center;
+    text-align: center;
+    /* position: fixed; */
+}
+
+.nav-link{
+    color: black;
+}
+
+#logo{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.side{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    align-items: center;
+}
+
+#total-item{
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.side img{
+    height:20px;
+    width: 20px;
+}
+
+/* header div css */
+.header{
+    position: relative;
+    text-align: center ;
+    height: 600px;
+    width: 100%;   
+}
+
+img{
+    width: 759px;
+    height: 600px;
+}
+
+#img1{
+    float: left;
+}
+
+#img2{
+    float: right;
+}
+
+.header h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 60px;
+}
+
+.header .btn{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:black;    
+}
+
+/* row div css */
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 15px;
+  }
+  
+.clm {
+    position: relative;
+    flex: 25%;
+    padding: 5px;
+}
+
+.clm img{
+    width: 100%;
+    height: 200px;    
+}
+
+.row .clm h4{
+    position: absolute;
+    top:140px;
+    left:190px;
+}
+
+.row .clm p{
+    position: absolute;
+    top:170px;
+    left:250px;
+    color: grey;
+}
+
+/* find div css */
+
+.find{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    padding-top: 90px;
+    height: 270px;
+}
+
+.find p{
+    text-transform: uppercase;
+    color: grey;
+    
+}
+
+.find h3{
+    font-family: sans-serif;
+}
+
+.find .dummy-text{
+    color:grey;
+    text-transform: lowercase;
+}
+
+/* cart div css */
+.cart{
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 0px 5px;
+}
+
+.cart-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-img{
+    padding: 5px;
+}
+
+.cart-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.cart-des{
+    margin-top: 20px;
+    text-align: center;
+    height: 230px;
+}
+
+.cart-des h3{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.cart-des p{
+    color: gray;
+    font-size: 13px;
+}
+
+.cart-des .btn{
+    box-sizing: border-box;
+    width: 130px;
+    border-radius: 20px;
+    border-style: double;
+    background-color:#fff;
+    color:black;
+    border:1px solid;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.add-icon{
+    padding-right:10px;
+}
+
+.fa-plus{
+    background-color:#000000;
+    padding:5px;
+    border-radius:50px;
+    color:#ffffff;
+}
+
+
+/* kitchen div css */
+.kitchen{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:45px;
+}
+
+.kitchen-dining h3{
+    position: absolute;
+    top:500px ;
+    left:510px;
+}
+
+.kitchen-dining p{
+    position: absolute;
+    top:550px ;
+    left:495px;
+    color: grey;
+}
+
+.acc-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.acc-text img{
+    height: 295px;
+}
+
+.acc-text-pic1 h3{
+    position: absolute;
+    top: 170px;
+    left: 520px;
+}
+
+.acc-text-pic1 p{
+    position: absolute;
+    top: 220px;
+    left: 480px;
+    color: grey;
+}
+
+.acc-text-pic2 h3{
+    position: absolute;
+    top: 500px;
+    left: 570px;
+}
+
+.acc-text-pic2 p{
+    position: absolute;
+    top: 550px;
+    left: 502px;
+    color: grey;
+}
+
+
+/* shop detailes div css */
+.shop-details{
+    display: flex;
+    width: 90%;
+    padding-top: 7rem;
+    height: 300px;
+    margin: auto;
+}
+.item1{
+    width: 33.33%;
+    display: flex;
+}
+.item2{
+    width: 33.33%;
+    display: flex;
+}
+.item3{
+    width: 33.33%;
+    display: flex;
+}
+.ruler-img{
+    padding-top: 20px;
+}
+
+.Ruler-text{
+    margin-left: 30px;
+    padding:10px;
+}
+
+.Ruler-text p{
+    color: grey;
+}
+
+
+/* carousel css */
+.carousel{
+    background-color: rgb(233, 217, 220);
+    opacity: 0.8;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.carousel-inner{
+    height: 300px;
+}
+
+.carousel-caption{
+    color:black;
+    top: 60%;
+}
+
+.carousel-caption h4{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.quote{
+    color: black;
+    padding-top: 80px;
+    width: 75%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* toggle sidebar css */
+
+#sidebar {
+    position:absolute;
+    top:0px;
+    left:-200px;
+    width:200px;
+    height:100%;
+    background:#151719;
+    transition:all 300ms linear;
+    z-index : 5;
+  }
+  #sidebar.active {
+    left:0px;
+  }
+  #sidebar .toggle-btn {
+    position:absolute;
+    left:220px;
+    top:10px;
+  }
+  #sidebar .toggle-btn span {
+    display:block;
+    width:30px;
+    height:5px;
+    background:#151719;
+    margin:5px 0px;
+    cursor:pointer;
+  }
+  #sidebar div.list div.item {
+    padding:15px 10px;
+    border: 1px solid;
+    color:black;
+    text-transform:uppercase;
+    font-size:15px;
+    font-weight: bold;
+  }
+
+  .welcome-item{
+      padding:15px 10px ;
+      text-transform: uppercase;
+      font-size:15px ;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+  }

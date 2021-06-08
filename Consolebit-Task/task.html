@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Task</title>
+  </head>
+  <body>
+    <!-- start main div -->
+    <div class="main">
+      <!-- start navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <!-- sidebar start -->
+
+          <div id="sidebar">
+            <div class="toggle-btn" onclick="toggleSidebar()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>  
+            <div class="list">
+              <div class="welcome-item">Welcome</div>
+              <div class="item" >View Cart</div>
+              <div class="item" >Account</div>
+              <div class="item">Setting</div>
+            </div>
+          </div>
+
+          <!-- end sidebar -->
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="task.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html">Journals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html" id="logo">LOGO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="task.html">Contact</a>
+              </li> 
+            </ul>
+          </div>
+
+          <!-- div for search icon and cart inage -->
+          <div class="side">
+            <i class="fas fa-search" style="padding-top: 4px"></i>
+            <img src="images/cart-icon.png" alt="" />
+            <div id="total-item">0</div>
+          </div>
+          <!-- end icon and image div -->
+
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+
+      <!-- header start -->
+      <div class="header">
+        <div id="img1">
+          <img src="images/product-4.jpeg" alt="load" />
+        </div>
+        <div id="img2">
+          <img src="images/slider-img.jpeg" alt=" load" />
+        </div>
+        <h1>Brand New Look</h1>
+
+        <button type="submit" class="btn">view More</button>
+      </div>
+      <!-- header end -->
+
+
+      <!-- row div for 4 images -->
+      <div class="row">
+        <div class="clm">
+          <img src="images/img4.jpeg" alt=" load" />
+          <h4>Sofa Lounge</h4>
+          <p>Decoration</p>
+        </div>
+
+        <div class="clm">
+          <img src="images/img3.jpeg" alt="load" />
+          <h4>Accessories</h4>
+          <p>Collection</p>
+        </div>
+
+        <div class="clm">
+          <img src="images/img2.jpeg" alt="load" />
+          <h4>New Items</h4>
+          <p>Products</p>
+        </div>
+
+        <div class="clm">
+          <img src="images/img1.jpeg" alt="load" />
+          <h4>True Lite Trends</h4>
+          <p>Design 2020</p>
+        </div>
+      </div>
+      <!-- end row div -->
+
+      
+      <!-- find div for text area -->
+      <div class="find">
+        <p>find your Favorite</p>
+        <h3>Picks from our collection</h3>
+        <p class="dummy-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <!-- end find div -->
+
+      <!-- start cart div -->
+      <div class="cart">
+        <div class="cart-data">
+          <div class="cart-img">
+            <img src="images/product-1.jpeg" alt="load" />
+          </div>
+          <div class="cart-des">
+            <button type="submit" class="btn add-to-cart">
+              <span class="add-icon"> <i class="fas fa-plus"></i></span>Add To
+              Cart
+            </button>
+            <h3>Block Table</h3>
+            <p>Style</p>
+            <h6>$230.00</h6>
+          </div>
+        </div>
+        <div class="cart-data">
+          <div class="cart-img">
+            <img src="images/product-2.jpeg" alt="" />
+          </div>
+          <div class="cart-des">
+            <button type="submit" class="btn add-to-cart">
+              <span class="add-icon"> <i class="fas fa-plus"></i></span>Add To
+              Cart
+            </button>
+            <h3>Hyg Barstool</h3>
+            <p>Furniture</p>
+            <h6>$342.00</h6>
+          </div>
+        </div>
+        <div class="cart-data">
+          <div class="cart-img">
+            <img src="images/product-3.jpeg" alt="" />
+          </div>
+          <div class="cart-des">
+            <button type="submit" class="btn add-to-cart">
+              <span class="add-icon"> <i class="fas fa-plus"></i></span>Add To
+              Cart
+            </button>
+            <h3>Dustpan & Broom</h3>
+            <p>Home</p>
+            <h6>$27.00</h6>
+          </div>
+        </div>
+        <div class="cart-data">
+          <div class="cart-img">
+            <img src="images/product-4.jpeg" alt="" />
+          </div>
+          <div class="cart-des">
+            <button type="submit" class="btn add-to-cart">
+              <span class="add-icon"> <i class="fas fa-plus"></i></span>Add To
+              Cart
+            </button>
+            <h3>Herit Chair</h3>
+            <p>Art,Home</p>
+            <h6>$725.00</h6>
+          </div>
+        </div>
+      </div>
+      <!-- end cart div -->
+
+
+      <!-- kitchen accessories and texttile div -->
+      <div class="kitchen">
+        <div class="kitchen-dining">
+          <img src="images/banner-1.jpeg" alt="load" />
+          <h3>Kitchen & Dining</h3>
+          <p>Discover this week new arrivals</p>
+        </div>
+        <div class="acc-text">
+          <div class="acc-text-pic1">
+            <img
+              src="images/banner-2.jpeg"
+              alt="load"
+              style="height: 270px; width: 700px"
+            />
+            <h3>Accessories</h3>
+            <p>Express your pesonal style</p>
+          </div>
+          <div class="acc-text-pic2">
+            <img
+              src="images/banner-3.jpeg"
+              alt="load"
+              style="height: 270px; width: 700px"
+            />
+            <h3>Texttiles</h3>
+            <p>New arrivals on texttiles</p>
+          </div>
+        </div>
+      </div>
+      <!-- end kitchen accessories and texttile div -->
+
+
+      <!-- this div containes svg images and text area -->
+      <div class="shop-details">
+        <div class="item1">
+          <div class="ruler-img">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 64 64"
+              width="50"
+              height="50"
+            >
+              <g id="Ruler_and_pencil" data-name="Ruler and pencil">
+                <path
+                  d="M18,2H2V62H62V46H18ZM4,4H16V6H11V8h5v2H13v2h3v2H11v2h5v2H13v2h3v2H11v2h5v2H13v2h3v2H11v2h5v2H13v2h3v2H11v2h5v2H13v2h3v2H4ZM60,48V60H58V55H56v5H54V57H52v3H50V55H48v5H46V57H44v3H42V55H40v5H38V57H36v3H34V55H32v5H30V57H28v3H26V55H24v5H22V57H20v3H18V55H16v5H14V57H12v3H10V55H8v5H4V48Z"
+                ></path>
+                <path
+                  d="M60.012,13.887a7,7,0,0,0-9.9-9.9L23.647,30.452,19.523,44.477l14.024-4.125ZM26.364,37.636a7.933,7.933,0,0,0-2.278-1.586l1.054-3.581,5.309,1.052,1.077,5.341L27.95,39.914A7.941,7.941,0,0,0,26.364,37.636ZM47.285,15.3,31,31.591l-4.721-.936L44.456,12.473ZM33.339,37.732l-.949-4.708L48.7,16.715l2.828,2.829ZM51.526,5.4A5,5,0,0,1,58.6,12.473L56.477,14.6,49.405,7.523Zm3.536,10.607L52.941,18.13l-3.535-3.536L45.87,11.059l2.121-2.121ZM23.513,38A5.8,5.8,0,0,1,26,40.487l-3.524,1.036Z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="Ruler-text">
+            <h2>Best Quality</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              repudiandae.
+            </p>
+          </div>
+        </div>
+        <div class="item2">
+          <div class="ruler-img">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              id="Capa_1"
+              x="0px"
+              y="0px"
+              viewBox="0 0 480 480"
+              width="50"
+              height="50"
+              style="enable-background: new 0 0 480 480"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <g>
+                    <path
+                      d="M440,0H40C17.92,0.026,0.026,17.92,0,40v352c0,4.418,3.582,8,8,8h16v72c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-40 h336v40c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-72h16c4.418,0,8-3.582,8-8V40C479.974,17.92,462.08,0.026,440,0z M56,464 H40v-32h16V464z M440,464h-16v-32h16V464z M440,416H40v-16h400V416z M464,384H16V272h448V384z M464,256H16V144h448V256z M464,128 H16V40c0-13.255,10.745-24,24-24h400c13.255,0,24,10.745,24,24V128z"
+                    ></path>
+                    <path
+                      d="M240,336c13.255,0,24-10.745,24-24s-10.745-24-24-24s-24,10.745-24,24S226.745,336,240,336z M240,304 c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S235.582,304,240,304z"
+                    ></path>
+                    <path
+                      d="M240,208c13.255,0,24-10.745,24-24s-10.745-24-24-24s-24,10.745-24,24S226.745,208,240,208z M240,176 c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S235.582,176,240,176z"
+                    ></path>
+                    <path
+                      d="M240,32c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S253.255,32,240,32z M240,64c-4.418,0-8-3.582-8-8 s3.582-8,8-8s8,3.582,8,8S244.418,64,240,64z"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="Ruler-text">
+            <h2>Online Payment</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              repudiandae.
+            </p>
+          </div>
+        </div>
+        <div class="item3">
+          <div class="ruler-img">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 64 64"
+              width="60"
+              height="60"
+            >
+              <g id="_24_Hr" data-name="24 Hr">
+                <path
+                  d="M61,53H60V42a9.01,9.01,0,0,0-9-9H44V26a1,1,0,0,0-1-1H38a1,1,0,0,0,0,2h4V47H4V27H8a1,1,0,0,0,0-2H3a1,1,0,0,0-1,1V54a1,1,0,0,0,1,1H4v1a3,3,0,0,0,3,3h4.812a5.986,5.986,0,0,0,10.376,0H45.812a5.986,5.986,0,0,0,10.376,0H59a3,3,0,0,0,3-3V54A1,1,0,0,0,61,53ZM58,42v2H49a1,1,0,0,1-1-1V35h3A7.008,7.008,0,0,1,58,42ZM46,35v8a3,3,0,0,0,3,3h9v7H56.188a5.986,5.986,0,0,0-10.376,0H44V35ZM42,49v4H22.188a5.986,5.986,0,0,0-10.376,0H4V49ZM7,57a1,1,0,0,1-1-1V55h5.09a5.6,5.6,0,0,0,0,2Zm10,3a4,4,0,1,1,4-4A4,4,0,0,1,17,60Zm5.91-3a5.6,5.6,0,0,0,0-2H45.09a5.6,5.6,0,0,0,0,2ZM51,60a4,4,0,1,1,4-4A4,4,0,0,1,51,60Zm9-4a1,1,0,0,1-1,1H56.91a5.6,5.6,0,0,0,0-2H60Z"
+                ></path>
+                <path
+                  d="M19.447,26.658l-1.789.895A2.984,2.984,0,0,0,16,30.236V31a1,1,0,0,0,1,1h4a1,1,0,0,0,0-2H18.027a1,1,0,0,1,.526-.658l1.789-.895A2.984,2.984,0,0,0,22,25.764V25a3,3,0,0,0-6,0,1,1,0,0,0,2,0,1,1,0,0,1,2,0v.764A.994.994,0,0,1,19.447,26.658Z"
+                ></path>
+                <path
+                  d="M28.341,22.06a1,1,0,0,0-1.11.3l-5,6A1,1,0,0,0,23,30h4v1a1,1,0,0,0,2,0V30h1a1,1,0,0,0,0-2H29V23A1,1,0,0,0,28.341,22.06ZM27,28H25.135L27,25.762Z"
+                ></path>
+                <path
+                  d="M16.5,37.258A13,13,0,1,0,13.439,17.2l-.127-2.093a1,1,0,1,0-2,.121l.294,4.83c0,.029.02.053.024.081a.992.992,0,0,0,.071.246,1.164,1.164,0,0,0,.069.142.973.973,0,0,0,.171.192c.03.028.046.066.079.09.016.011.036.015.052.026s.019.021.032.028.049.013.072.024a1.029,1.029,0,0,0,.24.081.912.912,0,0,0,.115.017c.025,0,.048.012.073.012a.99.99,0,0,0,.259-.034l4.83-1.294a1,1,0,0,0-.517-1.932l-1.991.533a10.971,10.971,0,1,1-3,5.679,1,1,0,1,0-1.964-.372A13.013,13.013,0,0,0,16.5,37.258Z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="Ruler-text">
+            <h2>Fast Delivery</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              repudiandae.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end div  svg images and text area  -->
+
+
+
+      <!-- footer div for carousel -->
+      <div class="footer">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <blockquote class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat nesciunt, ipsam sed tempora et saepe distinctio qui
+                  ratione dolorum tenetur? Harum et consequatur reiciendis
+                  impedit.
+                </blockquote>
+                <h4>- Jeffery Roy -</h4>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <blockquote class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat nesciunt, ipsam sed tempora et saepe distinctio qui
+                  ratione dolorum tenetur? Harum et consequatur reiciendis
+                  impedit.
+                </blockquote>
+                <h4>- Yash Jangir -</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <blockquote class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quaerat nesciunt, ipsam sed tempora et saepe distinctio qui
+                  ratione dolorum tenetur? Harum et consequatur reiciendis
+                  impedit.
+                </blockquote>
+                <h4>- Mayank Sharma -</h4>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+    <!-- end main div -->
+    <script src="script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
