@@ -150,6 +150,8 @@ img{
     display: flex;
     justify-content: center;
     margin: 5px 5px 0px 5px;
+    gap: 10rem;
+    /* width: 100%; */
 }
 
 .cart-data{
