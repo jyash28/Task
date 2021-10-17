@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue",Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width:100%;
+}
+.first .box-1{
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    border:#926239 1px solid;
+    padding:10px 20px;
+    box-sizing: border-box;
+    width: 250px;
+    text-align: center;
+}
+
+.box{
+    text-decoration: none;
+    color: #926239;
+}
+.second{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.second .box-2{
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    background-color: #926239;
+    height:80vh;
+    justify-content:center;
+    align-items: start;
+    color: #fff;
+    background:url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.second h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+  }
+
+  .second p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
+  }
+
+.second .box-3{
+    box-shadow: var(--shadow);
+    background: var(--primary);
+    width:30%;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.second .box-5{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height:35vh;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+.second .box-4{
+    display: flex;
+    flex-direction: column;
+    height:35vh;
+    background-color: yellow; 
+    margin-top: 2.5vh;  
+    justify-content: center;
+    align-items: center;
+}
+.second.price {
+    font-size: 2.5rem;
+  }
+
+.third{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    height:40%;
+
+}
+.third .box-6{
+    width:22%;
+    background-color: red;
+    height:40vh;
+    padding:20px;
+    margin: 10px;
+}
+.third .box-7{
+    width:22%;
+    background-color: orange;
+    height:40vh;
+    padding:20px;
+    margin: 10px;
+}
+.third .box-8{
+    width:22%;
+    background-color:pink;
+    height:40vh;
+    padding:20px;
+    margin: 10px;
+}
+.third .box-9{
+    width:22%;
+    background-color:blue;
+    height:40vh;
+    padding:20px;
+    margin: 10px;
+}
+
+  
+  
